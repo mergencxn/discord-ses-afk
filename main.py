@@ -19,5 +19,5 @@ async def join(ctx):
 async def leave(ctx):
     await ctx.voice_client.disconnect()
 
-# başka bir hesabının tokenini yazacaksın
+# bot tokenini yazacaksın
 bot.run("")
